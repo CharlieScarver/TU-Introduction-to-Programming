@@ -107,7 +107,8 @@ for number in range(1, 20):
 # range(start=0, end, step=1)
 # Negative step = iterate in reverse
 for x in range(20, 10, -2):
-    print(x, end=' ')
+    print(x, end=' ')
+
  
 
 ### Sem-03 ###
@@ -119,7 +120,7 @@ for x in range(20, 10, -2):
 # 2. Write a program to display all prime numbers within a range (start, end)
 # 3. Find the factorial of a given number
 # 4: Reverse a given integer number
-# 5. Display Fibonacci series up to 10 terms
+# 5. Display Fibonacci series up to a given number of terms
 # 6. Use a loop to display elements from a given list
 #    present at odd index positions
 # 7. Find the sum of the series upto n terms (n = 5, 5+55+555+5555+55555)
