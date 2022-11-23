@@ -1,11 +1,13 @@
-# What type is this?
+# Exercise: What type is this?
 
 a = 5,
 b = {}
 c = range(10)
 d = [a]
-e = [x for x in c]
-
+e = [x*2 for x in c]
+f = {1,}
+g = set(list((None,)))
+print("g: ", g, type(g))
 
 ##########
 
@@ -91,13 +93,13 @@ print("########")
 #       - x in s, s + t, s * n
 #       - s[i], s[i:j:k], len(s), max(s), s.index(x), s.count(x)
 
-## Immutable Sequence Types
+## Mutable Sequence Types
 #       - lists, sets, dictionaries
 #       - s[i] = x, del s[i:j], s[i:j:k] = t
 #       - s.append() s.copy(), s.clear(), s.insert(i, x), s.pop(), s.remove()
 #       - can be changed in functions, can't be reassigned
 
-## Mutable Sequence Types
+## Immutable Sequence Types
 #       - strings, tuples, ranges
 #       - hash()
 
