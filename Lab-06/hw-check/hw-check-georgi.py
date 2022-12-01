@@ -20,10 +20,28 @@ class Motorbike(Vehicle):
         self.motor_bin = motor_bin
         self.class_name = __class__.__name__
 
+class InvalidParameterError(Exception):
+    def __init__(self, message="Invalid parameter value", *args):
+        super().__init__(message, *args)
+        print(message, args)
+
+
+i = InvalidParameterError()
+i = InvalidParameterError("asdasdas")
+i = InvalidParameterError("asdasd", 1, 2, 3, 4, "asdasd")
+
 
 class Car(Vehicle):
     def __init__(self, brand, model, engine_vol, max_speed, total_km, max_passengers, category, type_fuel):
         super().__init__(brand, model, engine_vol, max_speed, total_km, max_passengers)
+
+        if type(category) != str:
+            raise InvalidParameterError()
+            raise ValueError()
+            raise NameError()
+            print('Invalid category')
+            return
+        
         self.category = category
         self.type_fuel = type_fuel
         self.class_name = __class__.__name__
