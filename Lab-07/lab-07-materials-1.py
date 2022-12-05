@@ -44,7 +44,7 @@ else:
 # Undeclared name
 try:
     print(a)
-    print(b)
+    print(b) # NameError
 except NameError as e:
     print(f'Name error: {str(e)}')
 
@@ -76,7 +76,7 @@ def f():
     y = 10
     try:
         is_p = g(c)
-    except ZeroDivisionError:
+    except ZeroDivisionError as e:
         print("Division by zero!")
     else:
         if is_p:
@@ -101,12 +101,31 @@ with open("./file.txt", "w") as f:
 
 
 # Custom Exceptions
+class MyException(Exception):
+    def __init__(self, message="Custom error", *args):
+        super().__init__(message, *args)
+
 class CustomException(Exception):
     pass
 
-class MyException(Exception):
-    def __init__(self, message="Shte se grumna", *args):
-        super().__init__(message, *args)
+class CustomException(Exception):
+    pass
+
+class InvalidParameter(Exception):
+    pass
+
+class InvalidAgeError(InvalidParameter):
+    pass
+
+class InvalidParameter(Exception):
+    def __init__(self, invalid_parameter):
+        message = f"Invalid class parameter: {invalid_parameter}"
+        super().__init__(message)
+
+try:
+    raise InvalidParameter("name")
+except InvalidParameter as e:
+    print("Caught a custom exception:", str(e))
 
 try:
     raise CustomException("Raised a customer exception")
