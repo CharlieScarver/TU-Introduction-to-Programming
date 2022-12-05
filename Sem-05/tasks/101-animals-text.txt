@@ -1,0 +1,120 @@
+Sem-05
+
+Задача 1.
+Дефинирайте собствени класове за грешки MissingParameterError и InvalidParameterError.
+InvalidParameterError приема като стринг името на невалидния параметър и генерира съобщение за грешката с него по следния начин:
+InvalidParameterError("name") ще хвърли грешка със съобщение "Invalid class parameter: name".
+
+Дефинирайте още два класа грешки, които наследяват InvalidParameterError:
+- InvalidAgeError, който подава на конструктора на родителя като първи параметър "age", за да се получи съобщение "Invalid parameter: age"
+- InvalidSoundError, който подава на конструктора на родителя като първи параметър "sound", за да се получи съобщение "Invalid parameter: sound".
+
+JungleAnimal:
+Напишете клас JungleAnimal, който има полета name, age и sound и методи make_sound(), print() и daily_task().
+Всички параметри са задължителни. Ако някой от тях липсва се хвърля грешка MissingParameterError.
+Ако name не е стринг се хвърля грешка InvalidParameterError("name").
+Ако age не е int се хвърля грешка InvalidAgeError.
+Ако sound не е стринг се хвърля грешка InvalidSoundError.
+
+Методът make_sound() принтира следния стринг "{name} says {sound}!" като се заместват съответните полета на класа.
+Методите print() и daily_task() са празни и се имплементират от класовете наследници.
+
+Jaguar:
+Напишете клас Jaguar, който наследява JungleAnimal.
+Ако му се подаде age по-голям от 15 хвърля грешка InvalidAgeError().
+Ако му се подаде sound, който не съдържа поне две букви "r", хвърля грешка InvalidSoundError.
+
+Методът print() принтира следния стринг: "Jaguar({name}, {age}, {sound})" като се заместват съответните полета на класа.
+Методът daily_task() приема като аргумент списъка с животни animals, в който има обекти от класовете животни. Методът обикаля списъка докато не намери животно от тип или Lemur или Human, при което го изтрива от списъка и принтира стринга:
+{name} the Jaguar hunted down {animal.name} the {animal_class.__name__}
+
+Lemur:
+Напишете клас Lemur, който наследява JungleAnimal.
+Ако му се подаде age по-голям от 10 хвърля грешка InvalidAgeError.
+Ако му се подаде sound, който не съдържа буква "e", хвърля грешка InvalidSoundError.
+
+Методът print() принтира следния стринг: "Lemur({name}, {age}, {sound})" като се заместват съответните полета на класа.
+Методът daily_task() приема като целочислен аргумент брой налични плодове.
+Ако плодовете са 10 или повече, лемурът изяжда 10, принтира "{name} the Lemur ate a full meal of 10 fruits" и методът връща броя оставащи плодове.
+Ако плодовете са по-малко от 10, лемурът изяжда всичките, принтира "{name} the Lemur could only find {fruits} fruits" и методът връща 0 (защото остават 0 плода).
+Ако плодовете са 0 или по-малко, лемурът остава гладен, извиква два пъти make_sound() метода си, принтира "{name} the Lemur couldn't find anything to eat" и методът връща 0.
+
+Human:
+Напишете клас Human, който наследява JungleAnimal.
+Ако му се подаде age по-голям от 10 хвърля грешка InvalidAgeError.
+Ако му се подаде sound, който не съдържа буква "e", хвърля грешка InvalidSoundError.
+
+Методът print() принтира следния стринг: "Human({name}, {age}, {sound})" като се заместват съответните полета на класа.
+Методът daily_task() приема два аргумента - списъка с животни animals и списък със сгради buildings.
+Методът намира къде в списъка с животни се намира конкретния Human обект и проверява дали предишния и следващващия обект в списъка също са от тип Human. Ако са построява сграда (нов обект от тип сграда) и я добавя в списъка със сгради.
+Ако конкретния човек се намира на първа или последна позиция в списъка, проверява съответно само следващия или само предишния обект
+
+Building:
+Напишете клас Building, който има стринг поле type.
+
+
+Основна логика:
+Следният код е как трябва да изглежда програмата ви.
+Получавате списъците на готово.
+Имате списъци names и sounds, в които има имена и звуци за животните.
+В първия for цикъл трябва да генерирате на случаен принцип животно със случайно избрани име, години и звук.
+Използвайте random.randint(start, end)
+Ако числото се падне между 0 и 3, животното трябва да е Lemur.
+Ако числото се падне между 4 и 7, животното трябва да е Jaguar.
+Ако числото се падне между 8 и 9, животното трябва да е Human.
+Age параметърът се избира случайно между 7 и 20.
+
+
+fruits = 100
+animals = []
+buildings = []
+
+names = [
+    "Jacob",
+    "David",
+    "Bobby",
+    "Steve",
+    "Johanssen",
+    "Mac",
+    "Jason",
+    "Edward",
+    "Alex",
+    "Maddie",
+    "Susan",
+    "Abigail",
+    "Jessica",
+    "Lizzy",
+    "Monica",
+    "Lorelei",
+    "Sandra",
+    "Michelle"
+]
+
+sounds = [
+    "RAAWR",
+    "ROAR",
+    "Grrr",
+    "Shriek",
+    "Meow",
+    "Eeek",
+    "Aaaaa",
+    "Speak",
+    "I am a Human"
+]
+
+
+for i in range(102):
+	# code
+
+
+print(f"The jungle now has {len(animals)} animals")
+
+
+for anim in animals:
+	# call daily_task() for each animal
+
+
+print(f"The jungle now has {len(animals)} animals")
+print(fruits)
+print(animals)
+print(buildings)

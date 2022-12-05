@@ -1,0 +1,98 @@
+7 Lizzy 14 Shriek Invalid class parameter: sound
+5 Lorelei 13 Meow Invalid class parameter: sound
+3 Monica 12 I am a Human Invalid class parameter: age
+0 Abigail 16 Meow Invalid class parameter: age
+2 Jessica 16 Aaaaa Invalid class parameter: age
+1 Mac 9 ROAR Invalid class parameter: sound
+0 Lizzy 11 Aaaaa Invalid class parameter: age
+0 Susan 16 Shriek Invalid class parameter: age
+1 Susan 12 Speak Invalid class parameter: age
+9 Edward 10 Grrr Invalid class parameter: sound
+3 Edward 11 Eeek Invalid class parameter: age
+6 Alex 8 Speak Invalid class parameter: sound
+0 Susan 10 Grrr Invalid class parameter: sound
+1 Susan 8 Grrr Invalid class parameter: sound
+9 Maddie 16 Shriek Invalid class parameter: sound
+6 Jason 11 ROAR Invalid class parameter: sound
+6 Maddie 16 Speak Invalid class parameter: age
+7 Sandra 8 I am a Human Invalid class parameter: sound
+7 Jacob 12 RAAWR Invalid class parameter: sound
+6 Michelle 9 RAAWR Invalid class parameter: sound
+9 Jessica 14 Eeek Invalid class parameter: sound
+4 Abigail 8 ROAR Invalid class parameter: sound
+8 Maddie 15 RAAWR Invalid class parameter: sound
+3 Lizzy 15 Speak Invalid class parameter: age
+6 Bobby 16 I am a Human Invalid class parameter: age
+6 Monica 7 RAAWR Invalid class parameter: sound
+4 Mac 14 Eeek Invalid class parameter: sound
+0 Michelle 16 Eeek Invalid class parameter: age
+0 Alex 9 I am a Human Invalid class parameter: sound
+4 Abigail 12 Speak Invalid class parameter: sound
+4 Susan 14 Aaaaa Invalid class parameter: sound
+5 Susan 7 Speak Invalid class parameter: sound
+7 Lizzy 15 Aaaaa Invalid class parameter: sound
+6 Susan 8 ROAR Invalid class parameter: sound
+4 Mac 11 I am a Human Invalid class parameter: sound
+5 Susan 13 ROAR Invalid class parameter: sound
+5 Lorelei 9 Speak Invalid class parameter: sound
+2 Lorelei 16 I am a Human Invalid class parameter: age
+6 Monica 8 ROAR Invalid class parameter: sound
+0 Maddie 11 Shriek Invalid class parameter: age
+4 Johanssen 7 ROAR Invalid class parameter: sound
+4 Jessica 10 I am a Human Invalid class parameter: sound
+5 Monica 13 I am a Human Invalid class parameter: sound
+7 Lizzy 8 Speak Invalid class parameter: sound
+0 Johanssen 13 ROAR Invalid class parameter: age
+2 Johanssen 12 Aaaaa Invalid class parameter: age
+1 Abigail 16 Meow Invalid class parameter: age
+2 Sandra 13 Eeek Invalid class parameter: age
+7 Alex 11 ROAR Invalid class parameter: sound
+2 Maddie 12 RAAWR Invalid class parameter: age
+9 Monica 15 Eeek Invalid class parameter: sound
+1 Michelle 12 RAAWR Invalid class parameter: age
+6 Jacob 13 Speak Invalid class parameter: sound
+7 Susan 9 I am a Human Invalid class parameter: sound
+7 Johanssen 13 Eeek Invalid class parameter: sound
+9 Lorelei 9 Meow Invalid class parameter: sound
+3 Lizzy 14 Grrr Invalid class parameter: age
+7 Jason 10 RAAWR Invalid class parameter: sound
+5 Michelle 14 Meow Invalid class parameter: sound
+9 David 15 Grrr Invalid class parameter: sound
+7 Bobby 13 RAAWR Invalid class parameter: sound
+6 Johanssen 13 RAAWR Invalid class parameter: sound
+5 Alex 12 RAAWR Invalid class parameter: sound
+3 Michelle 13 RAAWR Invalid class parameter: age
+8 Sandra 11 Shriek Invalid class parameter: sound
+1 Mac 15 ROAR Invalid class parameter: age
+9 Steve 16 ROAR Invalid class parameter: sound
+8 Steve 15 Eeek Invalid class parameter: sound
+9 Lorelei 9 Shriek Invalid class parameter: sound
+1 Michelle 9 Aaaaa Invalid class parameter: sound
+4 Edward 9 Shriek Invalid class parameter: sound
+9 Michelle 15 Eeek Invalid class parameter: sound
+8 Alex 10 Grrr Invalid class parameter: sound
+0 Lizzy 15 ROAR Invalid class parameter: age
+7 Alex 10 I am a Human Invalid class parameter: sound
+1 Alex 9 RAAWR Invalid class parameter: sound
+6 David 12 I am a Human Invalid class parameter: sound
+9 Alex 10 Meow Invalid class parameter: sound
+3 Mac 12 RAAWR Invalid class parameter: age
+1 Jason 13 ROAR Invalid class parameter: age
+The jungle now has 22 animals
+Johanssen the Lemur ate a full meal of 10 fruits
+Monica the Jaguar hunted down Johanssen the Lemur
+Alex the Lemur ate a full meal of 10 fruits
+Sandra the Jaguar hunted down Alex the Lemur
+Maddie the Lemur ate a full meal of 10 fruits
+Jacob the Lemur ate a full meal of 10 fruits
+Lorelei the Lemur ate a full meal of 10 fruits
+Bobby the Lemur ate a full meal of 10 fruits
+Mac the Lemur ate a full meal of 10 fruits
+Michelle the Lemur ate a full meal of 10 fruits
+Lizzy the Lemur ate a full meal of 10 fruits
+The jungle now has 20 animals
+10
+[<__main__.Jaguar object at 0x0000019D8BF62170>, <__main__.Jaguar object at 0x0000019D8BF61FC0>, <__main__.Human 
+object at 0x0000019D8BF61E40>, <__main__.Human object at 0x0000019D8BF61D80>, <__main__.Human object at 0x0000019D8BF61C60>, <__main__.Jaguar object at 0x0000019D8BF61BA0>, <__main__.Lemur object at 0x0000019D8BF61AE0>, <__main__.Human object at 0x0000019D8BF61A50>, <__main__.Human object at 0x0000019D8BF61A20>, <__main__.Lemur object at 0x0000019D8BF61960>, <__main__.Lemur object at 0x0000019D8BF61600>, <__main__.Human object at 0x0000019D8BF61390>, <__main__.Human object at 0x0000019D8BF61360>, <__main__.Lemur object at 0x0000019D8BF61270>, <__main__.Human 
+object at 0x0000019D8BF611E0>, <__main__.Lemur object at 0x0000019D8BF61120>, <__main__.Human object at 0x0000019D8BF61060>, <__main__.Lemur object at 0x0000019D8BF60FA0>, <__main__.Lemur object at 0x0000019D8BF60EE0>, <__main__.Lemur object at 0x0000019D8BF60CD0>]
+[<__main__.Building object at 0x0000019D8BF62260>]
