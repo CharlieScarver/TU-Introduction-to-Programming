@@ -31,16 +31,6 @@ except ModuleNotFoundError:
 else:
     asd.foo()
 
-# Module not found
-try:
-    a = 5
-    import asd
-    b = 4
-except ModuleNotFoundError:
-    print('Module not found')
-else:
-    asd.foo()
-
 # Undeclared name
 try:
     print(a)

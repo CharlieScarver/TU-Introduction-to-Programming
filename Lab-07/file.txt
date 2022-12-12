@@ -1,3 +1,4 @@
-Orange
-Banana
-Apple
+hi this is a text file
+here's a second line
+third line
+end
