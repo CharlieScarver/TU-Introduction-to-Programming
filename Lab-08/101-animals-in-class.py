@@ -163,7 +163,6 @@ sounds = [
     "I am a Human"
 ]
 
-
 for i in range(102):
 	# fill list with random animals
     ranim = randint(0, 9)
@@ -182,9 +181,8 @@ for i in range(102):
         print(ranim, names[rname], rage, sounds[rsound], str(ex))
     else:
         animals.append(anim)
-    
 
-
+ 
 print(f"The jungle now has {len(animals)} animals")
 
 for anim in animals:
@@ -195,7 +193,6 @@ for anim in animals:
         anim.daily_task(animals)
     elif type(anim) == Human:
         anim.daily_task(animals, buildings)
-
 
 print(f"The jungle now has {len(animals)} animals, {fruits} fruits and {len(buildings)} buildings")
 print(animals)
