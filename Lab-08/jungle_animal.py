@@ -18,17 +18,22 @@ fruits = 100
 animals = []
 buildings = []
 
+# from lab_08_material import Iguana
+
 def generate_animals(n):
     for i in range(0, n):
         rtype = randint(0, 9)
         # ...
         if rtype >= 0 and rtype <= 2:
             animals.append(Lemur())
+        # elif rtype >= 3 and rtype <= 4:
+        #     animals.append(Iguana())
         elif rtype >= 5 and rtype <= 7:
             animals.append(Jaguar())
         elif rtype >= 8 and rtype <= 9:
             animals.append(Human())
 
+    print(f"There are {len(animals)} in the jungle")
 
 print("Module name", __name__)
 

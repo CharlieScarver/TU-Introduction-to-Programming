@@ -5,3 +5,4 @@ from bank import Account, User, extra
 print(Account)
 print(User)
 print(extra)
+print(dir())
