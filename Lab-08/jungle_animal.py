@@ -1,5 +1,5 @@
 from random import randint
-# from lab_08_material import Iguana
+#from lab_08_material import Iguana
 # circular import
 
 class JungleAnimal:
@@ -24,11 +24,11 @@ def generate_animals(n):
     for i in range(0, n):
         rtype = randint(0, 9)
         # ...
-        if rtype >= 0 and rtype <= 2:
+        if rtype >= 0 and rtype <= 3:
             animals.append(Lemur())
         # elif rtype >= 3 and rtype <= 4:
-        #     animals.append(Iguana())
-        elif rtype >= 5 and rtype <= 7:
+        #      animals.append(Iguana())
+        elif rtype >= 4 and rtype <= 7:
             animals.append(Jaguar())
         elif rtype >= 8 and rtype <= 9:
             animals.append(Human())
@@ -43,5 +43,5 @@ if __name__ == "__main__":
     for anim in animals:
         t = type(anim)
         if t == Human:
-            print("Hello, ", end=" ")
+            print("Hello", end=" ")
         print(t)
